@@ -468,7 +468,7 @@ footer a:hover {
   .hero p{
     font-size: 19px;
   }
-  .bar{
+  .navbar .bar{
     display: block;
   }
 }
