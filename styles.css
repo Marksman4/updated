@@ -52,10 +52,10 @@ body{
 }
 
 .btn{
-  height: 6px;
+  height: 3px;
   background-color: #fff;
   width: 25px;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
 }
 
 .navbar input{
