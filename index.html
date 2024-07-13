@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"  />
+    
+    <title>DigitalMax</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <img src="images/logo.jpg" alt="">
+
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" class="bar">
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="home-content">
+    
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/firstimage.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/last.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/fourth.jpg" style="width:100%">
+            </div>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>
+        
+
+        <div class="hero">
+            <h1>Digital<span>Max</span></h1>
+            <h3>Home of Awards & Graphics</h3>
+            <p>Since 2010</p>   
+        </div>
+    </div>
+
+    <!-- About section -->
+    <section id="about" class="about-us">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-6">
+                   <img src="images/bro pic.jpg" alt="About Us Image" class="img-responsive">
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-6-text">
+                        <h2>About Us</h2>
+                       <p>At DigitalMax Graphics & Awards studio, Creativity knows no bounds. Our journey began with a passion for turning imaginations into pixels, And that passion continues to fuel our work today.With a team of dedicated Graphics Artists, We're committed to delivering designs that not only look great but also resonate with your audience. <a href="#">Read More</a></p>
+                      <h4>Our Mission</h4>
+                      <p>To provide innovative and creative solutions that exceed our clients' expectations, while maintaining the highest level of quality and customer satisfaction.</p>
+                      <h4>Our Vision</h4>
+                    <p>To be the leading graphics and awards studio in the industry, known for our exceptional designs, outstanding customer service, and commitment to excellence.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section  id="services" class="services">
+        <div class="service-container">
+            <h2>Our Services</h2>
+
+
+            <div class="service-col">
+
+                <div class="service-row">
+                
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="images/second.jpg" alt="">
+                            <figcaption>
+                                <h4>Awards & Plaque</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, mollitia delectus. Modi, </p>
+                            </figcaption>
+                                    
+                        </figure>  
+                    </div>
+    
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="images/crest.jpg" alt="">
+                            <figcaption>
+                                <h4>Awards & Plaque</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, mollitia delectus. Modi, </p>
+                            </figcaption>
+                        </figure>  
+                    </div>
+    
+    
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="images/crest.jpg" alt="">
+                            <figcaption>
+                                <h4>Awards & Plaque</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, mollitia delectus. Modi, </p>
+                            </figcaption>
+                        </figure>  
+                    </div>
+    
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="images/crest.jpg" alt="">
+                            <figcaption>
+                                <h4>Awards & Plaque</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, mollitia delectus. Modi, </p>
+                            </figcaption>
+                             
+                        </figure>  
+                    </div>
+    
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="images/crest.jpg" alt="">
+                            <figcaption>
+                                <h4>Awards & Plaque</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, mollitia delectus. Modi, </p>
+                            </figcaption>
+                        </figure>  
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            
+            <form action="contact.php" method="post">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+          <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+          <ul>
+            <li><a href="contact.phps">Contact Us</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+          <div class="social-media">
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </footer>
+
+
+    
+
+
+
+
+ 
+    
+
+
+ 
+
+    <!-- <section id="about">
+            <div class="about-team">
+                <h4>Meet Our Team</h4>
+                <div class="about-team-member">
+                    <div class="team-member">
+                        <img src="images/certificate.jpg" alt="Team Member 1">
+                        <div class="team-memeber-text">
+                            <h5>Mr. Promise Ohaegbu</h5>
+                        <p>Founder & Creative Director</p>
+                        </div>
+                        
+                    </div>
+                    <div class="team-member">
+                        <img src="images/crest.jpg" alt="Team Member 2">
+                        <div class="team-member-text">
+                            <h5>Ujunwa Ohaegbu</h5>
+                            <p>Graphics Designer</p>
+                        </div>
+                        
+                    </div>
+                    <div class="team-member">
+                        <img src="images/firstimage.jpg" alt="Team Member 3">
+                        <div class="team-member-text">
+                            <h5>Promise Ohaegbu</h5>
+                             <p>Awards Specialist</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+        
+    </section>-->
+
+   
+
+
+    <script src="index.js"></script>
+</body>
+</html>
